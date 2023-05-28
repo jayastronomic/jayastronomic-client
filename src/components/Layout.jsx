@@ -4,6 +4,7 @@ import { Canvas } from "@react-three/fiber";
 import Shader from "./Shader";
 import Nav from "./Nav";
 import NavModal from "./NavModal";
+import { Loader } from "@react-three/drei";
 
 const Layout = () => {
   useEffect(() => {
@@ -14,10 +15,11 @@ const Layout = () => {
 
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="layout relative h-full overflow-hidden m-0">
+    <div className="layout relative h-full min-h-screen overflow-hidden m-0">
       <Canvas style={{ width: "100%", height: "100%", position: "absolute" }}>
         <Shader />
-      </Canvas>
+      </Canvas>{" "}
+      <Loader />
       <div className="relative flex flex-col h-full">
         <Nav setIsOpen={setIsOpen} />
         <Outlet />

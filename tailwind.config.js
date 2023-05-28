@@ -8,7 +8,6 @@ module.exports = {
           "100%": {
             filter: "blur(0)",
             opacity: "1",
-            transform: "scale(1)",
           },
         },
         "phase-in": {
@@ -21,7 +20,7 @@ module.exports = {
         },
       },
       animation: {
-        "fade-in": "fade-in 1.05s forwards ease-in",
+        "fade-in": "fade-in 900ms forwards ease-in",
         "phase-out": "phase-out 500ms forwards ease-in",
         "phase-in": "phase-in 500ms forwards ease-in",
       },
