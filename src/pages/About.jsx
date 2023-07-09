@@ -21,9 +21,9 @@ const About = () => {
         <div className="space-y-4 font-thin">
           <p>
             I’m Julian A. Smith, a passionate creative who indulges in building
-            experiences, currently working as a freelance web developer in
-            Chicago. I’ve been in the tech space for 2 years now, learning all I
-            can about web design and software engineering.{" "}
+            experiences, currently working as a freelance web developer. I’ve
+            been in the tech space for 2 years now, learning all I can about web
+            design and software engineering.{" "}
           </p>
           <p>
             Proficient in Front-End Engineering, Back-end Engineering, and Full
